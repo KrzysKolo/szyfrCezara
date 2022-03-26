@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap");
+
+.wrapper__szyfr {
+  width: 100vw;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  &-input {
+    display: flex;
+    width: 80vw;
+    margin: 0.75rem auto;
+    label {
+      color: navy;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+    input {
+      padding: 5px;
+      border-radius: 10px;
+      color: navy;
+      font-size: 1rem;
+    }
+  }
+}
+.wrapper__password {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 900px;
+  margin: 4rem auto 0;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: navy;
+  &-letters {
+    display: flex;
+    max-width: 900px;
+    margin-top: 2rem;
+    &__letter {
+      font-family: "Palette Mosaic", cursive;
+      color: navy;
+      font-size: 24px;
+      border: 2px solid navy;
+      border-radius: 0 0 10px 0;
+      padding: 5px 10px;
+      margin-right: 10px;
+      box-shadow: 4px 4px 8px #8b898e;
+    }
+  }
+}
